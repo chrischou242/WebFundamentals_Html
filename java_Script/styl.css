@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.wrapper1{
+    height: 1000px;
+    
+}
+.navigation {
+    background-color: #f7f7f7;
+    color: #141210;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: x-large;
+    height: 100px;
+
+}
+
+
+.right-nav{
+    margin-left: 250px ;
+}
+.left-nav {
+    
+    margin-left: 20px;
+
+}
+
+
+/* Purple background middle */
+.info{
+    
+    background-color:#6f5964;
+    height: 700px;
+    padding-left: 20px;
+    padding-top: 20px;
+    
+}
+
+/* .info p{
+    background-color: silver;
+    height: 50px;
+    check how to make 
+} */
+
+/* pushes the margin, away from profile picture */
+.info img{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+/* gives the border for content middle section */
+.content p{
+    
+    border-style: solid;
+    border-color: #918f9b;
+}
+
+
+/* Silver background for the three boxes */
+.content{
+    display: inline-block;
+    height: 400px;
+    width:  200px;
+    color: white;
+    background-color:#e8dfe7;
+    vertical-align: top;
+    margin-right: 50px;
+}
+
+
+.contact,
+.social img,
+.social {
+    display: inline-block;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    font-size: x-small;
+}
+

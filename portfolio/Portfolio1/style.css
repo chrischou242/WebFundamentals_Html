@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    background-color: #f9f9f9;
+    width: 900px;
+    height: 1000px;
+}
+
+.Navigator{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+.middle {
+    background-color: #644f59;
+    padding: 20px;
+    height: 800px;
+}
+
+.left_navigator{
+    font-size: x-large;
+    font-family: 'Balsamiq Sans',cursive;
+}
+
+.image{
+    margin-right: 20px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #b5b3b3;
+}
+.row{
+    display:flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.top {
+    height: 50px;
+    background-color: #8a8895;
+    color: white;
+    width: 400px;
+    padding-top: 10px;
+    padding-left: 10px;
+
+}
+
+.bottom {
+    background-color: #eae1e9;
+    width: 400px;
+    font-size: small;
+    height: 150px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+#top_half{
+    margin-bottom: 10px;
+}
+
+.row2{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    
+}
+
+.row2 p{
+    font-size: small;
+}
+
+
+.lamode{
+    width: 200px;
+    height: 300px;
+}
+
+.title{
+    height: 50px;
+    background-color: #8a8895;
+    color: white;
+    width: 250px;
+    
+}
+
+.text{
+    height: 150px;
+    background-color: #ded0dd;
+    color: black;
+    width: 250px;
+}
+
+.tech {
+    height:20px;
+    background-color: #8a8895;
+    width: 250px;
+    
+    
+}
+
+.container{
+    height: 200px;
+    width: 250px;
+    background-color: #8a8895;
+}
+.lang{
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.button {
+    width: 100px;
+    height: 50px;
+    background-color: green;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lastpart{
+    background-color: #b5b3b3;
+}
+.social,
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    margin-left: 50px;
+}
+
